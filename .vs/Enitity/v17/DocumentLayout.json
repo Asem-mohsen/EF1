@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Enitity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\migrations\\20250214204918_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\migrations\\20250214204918_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\stud_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\stud_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\course_inst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\course_inst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|c:\\users\\user\\source\\repos\\enitity\\enitity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A947B315-D1D1-4348-831C-F3946482363F}|Enitity\\Enitity.csproj|solutionrelative:enitity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250214204918_IntialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Migrations\\20250214204918_IntialCreate.cs",
+              "RelativeDocumentMoniker": "Enitity\\Migrations\\20250214204918_IntialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Migrations\\20250214204918_IntialCreate.cs",
+              "RelativeToolTip": "Enitity\\Migrations\\20250214204918_IntialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:49:18.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stud_Course.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Stud_Course.cs",
+              "RelativeDocumentMoniker": "Enitity\\Stud_Course.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Stud_Course.cs",
+              "RelativeToolTip": "Enitity\\Stud_Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:48:52.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course_Inst.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Course_Inst.cs",
+              "RelativeDocumentMoniker": "Enitity\\Course_Inst.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Course_Inst.cs",
+              "RelativeToolTip": "Enitity\\Course_Inst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:39:16.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\ITIDbContext.cs",
+              "RelativeDocumentMoniker": "Enitity\\ITIDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\ITIDbContext.cs",
+              "RelativeToolTip": "Enitity\\ITIDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:58:55.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Student.cs",
+              "RelativeDocumentMoniker": "Enitity\\Student.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Student.cs",
+              "RelativeToolTip": "Enitity\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:55:27.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Program.cs",
+              "RelativeDocumentMoniker": "Enitity\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Enitity\\Enitity\\Program.cs",
+              "RelativeToolTip": "Enitity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:52:04.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
