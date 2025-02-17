@@ -4,6 +4,7 @@ using Enitity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Enitity.Migrations
 {
     [DbContext(typeof(ITIDbContext))]
-    partial class ITIDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250217182526_instructor-relation")]
+    partial class instructorrelation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,16 +89,13 @@ namespace Enitity.Migrations
                     b.Property<int>("Ins_ID")
                         .HasColumnType("int");
 
-                    b.Property<int>("InstructorID")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("InstructorID");
+                    b.HasIndex("Ins_ID");
 
                     b.ToTable("Departments");
                 });
@@ -115,9 +115,6 @@ namespace Enitity.Migrations
                     b.Property<decimal>("Bonus")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("DepartmentID")
-                        .HasColumnType("int");
-
                     b.Property<int>("Dept_ID")
                         .HasColumnType("int");
 
@@ -132,8 +129,6 @@ namespace Enitity.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("DepartmentID");
 
                     b.HasIndex("Dept_ID");
 
@@ -213,21 +208,17 @@ namespace Enitity.Migrations
 
             modelBuilder.Entity("Enitity.Department", b =>
                 {
-                    b.HasOne("Enitity.Instructor", "Instructor")
+                    b.HasOne("Enitity.Instructor", "instructor")
                         .WithMany()
-                        .HasForeignKey("InstructorID")
+                        .HasForeignKey("Ins_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Instructor");
+                    b.Navigation("instructor");
                 });
 
             modelBuilder.Entity("Enitity.Instructor", b =>
                 {
-                    b.HasOne("Enitity.Department", null)
-                        .WithMany("Instructors")
-                        .HasForeignKey("DepartmentID");
-
                     b.HasOne("Enitity.Department", "Department")
                         .WithMany()
                         .HasForeignKey("Dept_ID")
@@ -235,11 +226,6 @@ namespace Enitity.Migrations
                         .IsRequired();
 
                     b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("Enitity.Department", b =>
-                {
-                    b.Navigation("Instructors");
                 });
 #pragma warning restore 612, 618
         }

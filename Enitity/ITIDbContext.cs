@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Enitity.Configrations;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,11 +25,7 @@ namespace Enitity
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Fluent API Configuration
-            modelBuilder.Entity<Department>().HasKey(d => d.ID);
-            modelBuilder.Entity<Department>().Property(d => d.Name).IsRequired().HasMaxLength(100);
-            modelBuilder.Entity<Instructor>().HasKey(i => i.ID);
-            modelBuilder.Entity<Instructor>().Property(i => i.Name).IsRequired();
+            modelBuilder.ApplyConfiguration(new InstructorConfiguration());
         }
     }
 

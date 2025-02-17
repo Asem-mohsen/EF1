@@ -10,6 +10,8 @@ namespace Enitity
         {
             public int ID { get; set; }
             public string Name { get; set; }
-        }
+
+            public ICollection<Course> Course { get; set; } = new List<Course>();  
+    }
     
 }
